@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5cef3b41-18c5-4284-b586-f0ae28f1f08e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:5253/MPartService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MPartService.disco" MetadataType="Disco" ID="02525c6e-76d5-42b5-b754-bb6a102b2dfe" SourceId="1" SourceUrl="http://localhost:5253/MPartService.svc?disco" />
+    <MetadataFile FileName="MPartService2.xsd" MetadataType="Schema" ID="cd96dd77-9210-49b2-a4f3-96bb1594fca5" SourceId="1" SourceUrl="http://localhost:5253/MPartService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MPartService.xsd" MetadataType="Schema" ID="597f931b-fe7d-417e-bfb3-dc93091570a2" SourceId="1" SourceUrl="http://localhost:5253/MPartService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MPartService1.wsdl" MetadataType="Wsdl" ID="47760ad3-7b43-4ee8-92be-b7dc4937d27a" SourceId="1" SourceUrl="http://localhost:5253/MPartService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="MPartService1.xsd" MetadataType="Schema" ID="fee28a8f-da44-4a8a-8800-edc94a2f918b" SourceId="1" SourceUrl="http://localhost:5253/MPartService.svc?xsd=xsd3" />
+    <MetadataFile FileName="MPartService.wsdl" MetadataType="Wsdl" ID="09b0f8e8-6d2e-404a-a220-d62d9629c196" SourceId="1" SourceUrl="http://localhost:5253/MPartService.svc?wsdl" />
+    <MetadataFile FileName="MPartService3.xsd" MetadataType="Schema" ID="9f2d6af2-6736-4139-bad2-04d8db1b11ef" SourceId="1" SourceUrl="http://localhost:5253/MPartService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="979bc643-44f2-4ff6-8a16-4e117533d9de" name="Administrator@RSRC81Z3WSU117H 2013-05-28 13:30:53" runUser="RSRC81Z3WSU117H\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="4b3af8e5-d13c-4ed6-943b-c3ba01b0be51">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_RSRC81Z3WSU117H 2013-05-28 13_30_53">
+      <DeploymentItem filename="D:\TestMyProduct\FrameWork\FrameWork\AppServiceInterface.MPart\bin\Debug\AppService.MPart.dll" />
+      <DeploymentItem filename="D:\TestMyProduct\FrameWork\FrameWork\Domain.Repository\bin\Debug\Domain.Repository.dll" />
+      <DeploymentItem filename="D:\TestMyProduct\FrameWork\FrameWork\Packages\ExternalDLL\log4net.dll" />
+      <DeploymentItem filename="D:\TestMyProduct\FrameWork\FrameWork\Packages\EntityFrameWork\EntityFramework.dll" />
+      <DeploymentItem filename="D:\TestMyProduct\FrameWork\FrameWork\Repository\bin\Debug\Repository.dll" />
+      <DeploymentItem filename="D:\TestMyProduct\FrameWork\FrameWork\Domain.ServiceBase\bin\Debug\Domain.ServiceBase.dll" />
+      <DeploymentItem filename="D:\TestMyProduct\FrameWork\FrameWork\AppService.Base\bin\Debug\AppService.Base.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-28T13:30:53.1093750+08:00" queuing="2013-05-28T13:30:56.9062500+08:00" start="2013-05-28T13:30:57.3750000+08:00" finish="2013-05-28T13:30:58.5625000+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="4" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="3" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="RSRC81Z3WSU117H" outcome="Error" timestamp="2013-05-28T13:30:58.5625000+08:00">
+        <Text>测试宿主进程意外退出。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DoSearchTest" storage="d:\testmyproduct\framework\framework\mpart.search.test\bin\debug\mpart.search.test.dll" id="89c4129c-7209-a6d4-50df-8bfbfcea194e">
+      <Execution id="42558958-6db9-44dc-a21b-fbb75d190d59" />
+      <TestMethod codeBase="D:/TestMyProduct/FrameWork/FrameWork/MPart.Search.Test/bin/Debug/MPart.Search.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MPart.Search.Test.GetMPartSearchTest, MPart.Search.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DoSearchTest" />
+    </UnitTest>
+    <UnitTest name="GetPartByPartNoTest" storage="d:\testmyproduct\framework\framework\repository.test\bin\debug\repository.test.dll" id="76e9fabd-5dd9-c833-2d59-21879b3ce5e3">
+      <Execution id="d0b18edc-5b0f-4961-822c-592ecb149dd4" />
+      <TestMethod codeBase="D:/TestMyProduct/FrameWork/FrameWork/Repository.Test/bin/Debug/Repository.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Repository.Test.MPartRepositoryTest, Repository.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPartByPartNoTest" />
+    </UnitTest>
+    <UnitTest name="AddPartTest" storage="d:\testmyproduct\framework\framework\repository.test\bin\debug\repository.test.dll" id="5588f505-402d-ecc8-56b3-5a79dd79b59a">
+      <Execution id="d684db42-df2d-4c77-b549-1525dfb31fcb" />
+      <TestMethod codeBase="D:/TestMyProduct/FrameWork/FrameWork/Repository.Test/bin/Debug/Repository.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Repository.Test.MPartRepositoryTest, Repository.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddPartTest" />
+    </UnitTest>
+    <UnitTest name="DeletePartTest" storage="d:\testmyproduct\framework\framework\repository.test\bin\debug\repository.test.dll" id="2849d2fb-4291-51f2-df63-a1d894d54928">
+      <Execution id="3e4eac5b-8d24-4744-a9e2-24ffccb61939" />
+      <TestMethod codeBase="D:/TestMyProduct/FrameWork/FrameWork/Repository.Test/bin/Debug/Repository.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Repository.Test.MPartRepositoryTest, Repository.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeletePartTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2849d2fb-4291-51f2-df63-a1d894d54928" executionId="3e4eac5b-8d24-4744-a9e2-24ffccb61939" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5588f505-402d-ecc8-56b3-5a79dd79b59a" executionId="d684db42-df2d-4c77-b549-1525dfb31fcb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76e9fabd-5dd9-c833-2d59-21879b3ce5e3" executionId="d0b18edc-5b0f-4961-822c-592ecb149dd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89c4129c-7209-a6d4-50df-8bfbfcea194e" executionId="42558958-6db9-44dc-a21b-fbb75d190d59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3e4eac5b-8d24-4744-a9e2-24ffccb61939" testId="2849d2fb-4291-51f2-df63-a1d894d54928" testName="DeletePartTest" computerName="RSRC81Z3WSU117H" duration="00:00:00.9531250" startTime="2013-05-28T13:30:57.6093750+08:00" endTime="2013-05-28T13:30:58.5625000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e4eac5b-8d24-4744-a9e2-24ffccb61939">
+    </UnitTestResult>
+    <UnitTestResult executionId="d684db42-df2d-4c77-b549-1525dfb31fcb" testId="5588f505-402d-ecc8-56b3-5a79dd79b59a" testName="AddPartTest" computerName="RSRC81Z3WSU117H" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d684db42-df2d-4c77-b549-1525dfb31fcb">
+    </UnitTestResult>
+    <UnitTestResult executionId="d0b18edc-5b0f-4961-822c-592ecb149dd4" testId="76e9fabd-5dd9-c833-2d59-21879b3ce5e3" testName="GetPartByPartNoTest" computerName="RSRC81Z3WSU117H" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0b18edc-5b0f-4961-822c-592ecb149dd4">
+    </UnitTestResult>
+    <UnitTestResult executionId="42558958-6db9-44dc-a21b-fbb75d190d59" testId="89c4129c-7209-a6d4-50df-8bfbfcea194e" testName="DoSearchTest" computerName="RSRC81Z3WSU117H" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42558958-6db9-44dc-a21b-fbb75d190d59">
+    </UnitTestResult>
+  </Results>
+</TestRun>

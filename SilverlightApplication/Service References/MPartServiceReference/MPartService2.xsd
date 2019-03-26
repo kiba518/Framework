@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/AppService.Base" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AppService.Base" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:5253/MPartService.svc?xsd=xsd0" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfBase_MPart">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Base_MPart" nillable="true" type="tns:Base_MPart" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBase_MPart" nillable="true" type="tns:ArrayOfBase_MPart" />
+  <xs:complexType name="Base_MPart">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CurrentComboKey" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="CurrentVersion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DPartVersion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MPartNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MaterialProperty" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NodeType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:base64Binary" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Base_MPart" nillable="true" type="tns:Base_MPart" />
+</xs:schema>

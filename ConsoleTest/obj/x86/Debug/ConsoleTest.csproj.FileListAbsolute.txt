@@ -1,0 +1,9 @@
+D:\TestMyProduct\FrameWork\FrameWork\ConsoleTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\TestMyProduct\FrameWork\FrameWork\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+D:\TestMyProduct\FrameWork\FrameWork\ConsoleTest\bin\Debug\ConsoleTest.exe
+D:\TestMyProduct\FrameWork\FrameWork\ConsoleTest\bin\Debug\ConsoleTest.pdb
+D:\TestMyProduct\FrameWork\FrameWork\ConsoleTest\bin\Debug\log4net.dll
+D:\TestMyProduct\FrameWork\FrameWork\ConsoleTest\obj\x86\Debug\ConsoleTest.exe
+D:\TestMyProduct\FrameWork\FrameWork\ConsoleTest\obj\x86\Debug\ConsoleTest.pdb
+D:\TestMyProduct\FrameWork\FrameWork\ConsoleTest\bin\Debug\FrameWork.Application.dll
+D:\TestMyProduct\FrameWork\FrameWork\ConsoleTest\bin\Debug\FrameWork.Application.pdb

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AppService.MPart" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AppService.MPart" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:5253/MPartService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AppService.Base" />
+  <xs:complexType name="MPartParamDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CreateTimeEndPoint" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreateTimeStartPoint" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="MPartNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PageIndex" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MPartParamDTO" nillable="true" type="tns:MPartParamDTO" />
+  <xs:complexType name="MPartResultDTO">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AppService.Base" minOccurs="0" name="MPartList" nillable="true" type="q1:ArrayOfBase_MPart" />
+      <xs:element minOccurs="0" name="TotalCount" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MPartResultDTO" nillable="true" type="tns:MPartResultDTO" />
+</xs:schema>

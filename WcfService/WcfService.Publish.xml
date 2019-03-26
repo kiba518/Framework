@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\FrameworkWcf" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="05/25/2013 10:49:55" />
+    <file relUrl="bin/Domain.Repository.pdb" publishTime="05/25/2013 10:41:49" />
+    <file relUrl="bin/EntityFramework.dll" publishTime="04/15/2013 09:53:06" />
+    <file relUrl="bin/Repository.dll" publishTime="05/25/2013 10:41:50" />
+    <file relUrl="bin/FrameWork.Application.dll" publishTime="04/19/2013 09:56:17" />
+    <file relUrl="bin/WcfService.pdb" publishTime="05/25/2013 10:41:52" />
+    <file relUrl="bin/AppService.Base.dll" publishTime="05/25/2013 10:41:51" />
+    <file relUrl="bin/WcfService.dll" publishTime="05/25/2013 10:41:52" />
+    <file relUrl="bin/log4net.dll" publishTime="04/15/2013 09:53:06" />
+    <file relUrl="clientaccesspolicy.xml" publishTime="04/22/2013 17:07:24" />
+    <file relUrl="MPartService.svc" publishTime="04/22/2013 13:44:22" />
+    <file relUrl="bin/AppService.MPart.pdb" publishTime="05/25/2013 10:41:51" />
+    <file relUrl="bin/Domain.Repository.dll" publishTime="05/25/2013 10:41:49" />
+    <file relUrl="bin/AppService.Base.pdb" publishTime="05/25/2013 10:41:51" />
+    <file relUrl="bin/AppService.MPart.dll" publishTime="05/25/2013 10:41:51" />
+    <file relUrl="bin/Repository.pdb" publishTime="05/25/2013 10:41:50" />
+  </publishProfile>
+</publishData>

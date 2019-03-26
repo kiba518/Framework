@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_MPartService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:5253/MPartService.svc" binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_MPartService" contract="MPartServiceReference.MPartService"
+                name="BasicHttpBinding_MPartService" />
+        </client>
+    </system.serviceModel>
+</configuration>

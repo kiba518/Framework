@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="/Imports">
+      <xsd:import schemaLocation="http://localhost:5253/MPartService.svc?xsd=xsd3" />
+      <xsd:import schemaLocation="http://localhost:5253/MPartService.svc?xsd=xsd0" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:5253/MPartService.svc?xsd=xsd1" namespace="http://schemas.datacontract.org/2004/07/AppService.MPart" />
+      <xsd:import schemaLocation="http://localhost:5253/MPartService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AppService.Base" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="MPartService_ExcuteCommand_InputMessage">
+    <wsdl:part name="parameters" element="ExcuteCommand" />
+  </wsdl:message>
+  <wsdl:message name="MPartService_ExcuteCommand_OutputMessage">
+    <wsdl:part name="parameters" element="ExcuteCommandResponse" />
+  </wsdl:message>
+  <wsdl:message name="MPartService_GetMPartSearch_InputMessage">
+    <wsdl:part name="parameters" element="GetMPartSearch" />
+  </wsdl:message>
+  <wsdl:message name="MPartService_GetMPartSearch_OutputMessage">
+    <wsdl:part name="parameters" element="GetMPartSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="MPartService_ReturnExceptionSearch_InputMessage">
+    <wsdl:part name="parameters" element="ReturnExceptionSearch" />
+  </wsdl:message>
+  <wsdl:message name="MPartService_ReturnExceptionSearch_OutputMessage">
+    <wsdl:part name="parameters" element="ReturnExceptionSearchResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MPartService">
+    <wsdl:operation name="ExcuteCommand">
+      <wsdl:input wsaw:Action="urn:MPartService/ExcuteCommand" message="MPartService_ExcuteCommand_InputMessage" />
+      <wsdl:output wsaw:Action="urn:MPartService/ExcuteCommandResponse" message="MPartService_ExcuteCommand_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMPartSearch">
+      <wsdl:input wsaw:Action="urn:MPartService/GetMPartSearch" message="MPartService_GetMPartSearch_InputMessage" />
+      <wsdl:output wsaw:Action="urn:MPartService/GetMPartSearchResponse" message="MPartService_GetMPartSearch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReturnExceptionSearch">
+      <wsdl:input wsaw:Action="urn:MPartService/ReturnExceptionSearch" message="MPartService_ReturnExceptionSearch_InputMessage" />
+      <wsdl:output wsaw:Action="urn:MPartService/ReturnExceptionSearchResponse" message="MPartService_ReturnExceptionSearch_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

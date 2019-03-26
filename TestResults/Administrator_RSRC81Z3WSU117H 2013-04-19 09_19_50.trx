@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b1ff9c6e-a56d-4a32-bd13-2dd4f68817a7" name="Administrator@RSRC81Z3WSU117H 2013-04-19 09:19:50" runUser="RSRC81Z3WSU117H\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="4b3af8e5-d13c-4ed6-943b-c3ba01b0be51">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_RSRC81Z3WSU117H 2013-04-19 09_19_50">
+      <DeploymentItem filename="D:\TestMyProduct\FrameWork\FrameWork\Packages\EntityFrameWork\EntityFramework.dll" />
+      <DeploymentItem filename="D:\TestMyProduct\FrameWork\FrameWork\Domain.Repository\bin\Debug\Domain.Repository.dll" />
+      <DeploymentItem filename="D:\TestMyProduct\FrameWork\FrameWork\Packages\ExternalDLL\log4net.dll" />
+      <DeploymentItem filename="D:\TestMyProduct\FrameWork\FrameWork\Repository\bin\Debug\Repository.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-19T09:19:50.4843750+08:00" queuing="2013-04-19T09:19:51.7968750+08:00" start="2013-04-19T09:19:52.0000000+08:00" finish="2013-04-19T09:20:01.0000000+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="RSRC81Z3WSU117H" outcome="Error" timestamp="2013-04-19T09:20:01.0000000+08:00">
+        <Text>测试宿主进程意外退出。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetPartByPartNoTest" storage="d:\testmyproduct\framework\framework\repository.test\bin\debug\repository.test.dll" id="76e9fabd-5dd9-c833-2d59-21879b3ce5e3">
+      <Execution id="7eab986c-f286-467b-9848-e743cb7a74ba" />
+      <TestMethod codeBase="D:/TestMyProduct/FrameWork/FrameWork/Repository.Test/bin/Debug/Repository.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Repository.Test.MPartRepositoryTest, Repository.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPartByPartNoTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="76e9fabd-5dd9-c833-2d59-21879b3ce5e3" executionId="7eab986c-f286-467b-9848-e743cb7a74ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7eab986c-f286-467b-9848-e743cb7a74ba" testId="76e9fabd-5dd9-c833-2d59-21879b3ce5e3" testName="GetPartByPartNoTest" computerName="RSRC81Z3WSU117H" duration="00:00:08.8437500" startTime="2013-04-19T09:19:52.1562500+08:00" endTime="2013-04-19T09:20:01.0000000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7eab986c-f286-467b-9848-e743cb7a74ba">
+    </UnitTestResult>
+  </Results>
+</TestRun>
